@@ -1,6 +1,4 @@
-﻿// See https://aka.ms/new-console-template for more information
-// Console.WriteLine("Hello, World!");
-// Console.Clear();
+﻿// Console.Clear();
 // Console.Write("Введите число: ");
 // int number = Convert.ToInt32(Console.ReadLine());
 // int a = 0;
@@ -19,7 +17,7 @@
 Console.Clear();
 Console.Write("Введите число: ");
 string? number = Console.ReadLine();
-char[] minus = {'-'};
+char[] minus = {'-','0'};
 string absnumber = number.TrimStart(minus);
 if (absnumber.Length < 3)
 {
